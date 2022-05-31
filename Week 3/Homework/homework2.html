@@ -2,79 +2,78 @@
 <html>
 
 <head>
-    <title>Week 3 Sample</title>
+    <title>Homework 2</title>
     <style>
         body {
-            background-color: bisque;
-            font-family: 'Lato', sans-serif;
-            /* If Lato not available, use sans-serif */
-            font-size: 3vw;
-            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+            background-color: white;
+            font-family: 'Lato', san-serif;
+            font-size: 1.5vw;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         .titlebox {
-            height: 20vh;
-            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
+            height: 25vh;
             text-align: center;
         }
 
-        .container {
-            /* Target those elements containing class (dot) called 'container' */
-            display: flex;
-            /* This is the magic to make the 2 div align horizontally */
-            height: 80vh;
-            /* 80% height of the full page */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 50px;
         }
 
-        .container .box {
-            /* All the .box under .container */
-            width: 50%;
-            /* Each column would takes up 50%, so equally sharing spaces left and right */
-            background-image: url("images/unsplash.jpg");
-            background-size: cover;
-            background-position: center center;
-
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center;
-            /* vertically center */
-        }
-
-        .box div {
-            /* All the div under .box */
-            width: 100%;
-        }
-
-        #box2 {
-            text-align: right;
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
         }
 
         h1 {
             padding: 10px;
             border: 8px black solid;
+            border-top-style: none;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
         }
     </style>
-    <!-- this is HTML Comment 
-         The 2 lines below is to install Google Fonts. 
-         For all font in your homeworks, use Lato (as above)
-        -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
     <div class="titlebox">
-        <h1>My Title</h1>
+        <h1><big>Customer Reviews</big></h1>
     </div>
-    <div class="container">
-        <div id="box1" class="box">
-            <div>Box 1</div>
+
+    <div class="row">
+        <div class="column">
+            <p align="center">
+                <img src="images/mb.jpg" style="width:80%">
+            </p>
+            <p align="center"><b>Murielle Blake</b></p>
+            <p align="center">Testimonials are short quotes from<br>people who love your brand. It's a<br>great way to
+                convince customers<br>to try your services.</p>
         </div>
-        <div id="box2" class="box">
-            <div>Box 2</div>
+        <div class="column">
+            <p align="center">
+                <img src="images/it.jpg" style="width:80%">
+            </p>
+            <p align="center"><b>Inna Tran</b></p>
+            <p align="center">Testimonials are short quotes from<br>people who love your brand. It's a<br>great way to
+                convince customers<br>to try your services.</p>
+        </div>
+        <div class="column">
+            <p align="center">
+                <img src="images/cm.jpg" style="width:80%">
+            </p>
+            <p align="center"><b>Clyde Meily</b></p>
+            <p align="center">Testimonials are short quotes from<br>people who love your brand. It's a<br>great way to
+                convince customers<br>to try your services.</p>
         </div>
     </div>
+
 </body>
 
 </html>
