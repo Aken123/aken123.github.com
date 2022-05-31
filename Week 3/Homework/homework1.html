@@ -6,16 +6,10 @@
     <style>
         body {
             background-color: white;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Lato', serif;
             /* If Lato not available, use sans-serif */
             font-size: 3vw;
             /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
-        }
-
-        .titlebox {
-            height: 20vh;
-            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
-            text-align: center;
         }
 
         .container {
@@ -44,8 +38,12 @@
         }
 
         h1 {
-            padding: 10px;
-            border: 8px black solid;
+            padding: 50px;
+			border: 8px black solid;
+			border-top-style: solid;
+  			border-right-style: solid;
+  			border-bottom-style: solid;
+ 			border-left-style: none;
         }
     </style>
     <!-- this is HTML Comment 
@@ -60,7 +58,8 @@
 <body>
     <div class="container">
         <div id="box1" class="box">
-            <div><h1>MERLAND<br>FURNITURE</h1></div>
+            <div><h1><b>MERLAND<br>FURNITURE</b>
+				<small><small><small><small><small><small>Furniture, decor, and beyond</small></small></small></small></small></small></h1></div>
         </div>
         <div id="box2" class="box">
 			<img src="images/week3-homework1.jpg" />
