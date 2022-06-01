@@ -7,13 +7,13 @@
         body {
             background-color: white;
             font-family: 'Arial', san-serif;
-            font-size: 3vw;
+
         }
 
         .container {
             display: flex;
-            height: 80vh;
-			gap: 200px;
+            height: 100vh;
+            gap: 200px;
         }
 
         .container .box {
@@ -24,16 +24,11 @@
         }
 
         .box div {
-            width: 100%;
+            width: 70%;
         }
 
-        p {
-            padding: 50px;
-			border: 8px black solid;
-			border-top-style: solid;
-  			border-right-style: none;
-  			border-bottom-style: solid;
- 			border-left-style: solid;
+        h1 {
+            font-size: 35px;
         }
     </style>
 
@@ -42,11 +37,24 @@
 <body>
     <div class="container">
         <div id="box1" class="box">
-            <img src="images/week3-homework1.jpg" />
+            <img src="images/week3-homework3.jpg" />
         </div>
         <div id="box2" class="box">
-            <div><p align="center" ><b>CONNECT WITH US</b><br>
-				Furniture, decor, and beyond</p></div>
+            <div style="background: white;
+            padding: 50px;
+			border: 8px black solid;
+			border-top-style: solid;
+  			border-right-style: none;
+  			border-bottom-style: solid;
+ 			border-left-style: solid;">
+                <h1 align="center"><big>CONNECT WITH US</big></h1>
+                <p align="right"><b>Mailing Address</b></p>
+                <p align="right">123 Anywhere St., Any City, State, Country 12345</p>
+                <p align="right"><b>Email Address</b></p>
+                <p align="right">123 Anywhere St., Any City, State, Country 12345</p>
+                <p align="right"><b>Phone Number</b></p>
+                <p align="right">(123) 456 7890</p>
+            </div>
         </div>
     </div>
 </body>
