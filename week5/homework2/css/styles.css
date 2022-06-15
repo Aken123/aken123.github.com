@@ -29,23 +29,15 @@
     /* flex-end, space-around, space-between */
     align-items: center;
     border-style: double;
-    position: absolute;
-    top: 80px;
-    right: 17%;
-    width: 380px;
-    height: 50px;
+    width: 360px;
     border: 5px solid #ffffff;
     text-align: center;
+    margin-left: auto;
+    margin-top: 0%;
 }
 
 .top {
     display: flex;
-}
-
-.push {
-    margin-left: auto;
-    display: flex;
-    background-color: #333;
 }
 
 /* Navbar links */
