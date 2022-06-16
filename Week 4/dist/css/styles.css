@@ -161,6 +161,7 @@ p {
 .content {
 	position: relative;
   float: right;
+  margin-top: 20%;
 }
 
 .content h3 {
