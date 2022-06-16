@@ -98,14 +98,21 @@ p {
     padding: 5px;
 }
 
+.column2 {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
 /* Footer */
 .footrow {
     display: flex;
     text-align: center;
     background-color: black;
     color: white;
-    max-width: 1024px;
     width: 100%;
+    padding-top: 10%;
 }
 
 .footer {
