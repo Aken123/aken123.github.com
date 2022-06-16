@@ -1,0 +1,113 @@
+.container {
+    position: relative;
+    background-image: url(../img/amazonjungle.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container {
+    background-color: #c0c6c1;
+    margin: auto;
+}
+
+.header {
+    background-color: #c0c6c1;
+    color: #000000;
+    text-align: center;
+}
+
+.topnav {
+    display: flex;
+    /* flex-wrap: wrap; make it drop down*/
+    justify-content: flex-end;
+    /* flex-end, space-around, space-between */
+    align-items: center;
+    background-color: #c0c6c1;
+}
+
+.top {
+    display: flex;
+}
+
+.push {
+    margin-right: auto;
+    display: flex;
+}
+
+/* Navbar links */
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+h2 {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 18px;
+}
+
+div {
+    color:rgb(255, 255, 255)
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    font-size: 18px;
+    border-style: dashed;
+}
+
+.image {
+    max-width: 20px;
+    height: auto;
+    opacity: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 200px;
+    padding: 10px;
+}
+
+#avatar2 {
+    border-radius: 50%;
+    width: 200px;
+}
