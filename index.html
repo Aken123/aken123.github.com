@@ -251,5 +251,19 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            THREE.ShapeUtils.triangulateShape = (function () {
+                    var pnlTriangulator = new PNLTRI.Triangulator();
+                    return function triangulateShape(contour, holes) {
+                        return pnlTriangulator.triangulate_polygon([contour].concat(holes));
+                    };
+                })();
+        </script>
+        
+        <div id="three-container"></div>
+        
+        <div id="instructions">
+            click and drag to control the animation
+        </div>
     </body>
 </html>
