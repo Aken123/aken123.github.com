@@ -161,12 +161,11 @@ p {
 .content {
 	position: relative;
   margin-left: 80%;
-  width: 50px;
 }
 
 .content h3 {
 	color: #fff;
-	font-size: 8em;
+	font-size: 5em;
 	position: absolute;
 	transform: translate(-50%, -50%);
 }
