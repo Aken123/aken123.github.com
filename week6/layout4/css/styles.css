@@ -42,13 +42,18 @@
     grid-area: feat4;
 }
 
+.item12 {
+    grid-area: blog;
+}
+
 .grid-container {
     display: grid;
     margin: auto;
     grid-template-areas:
+        'blog blog blog blog'
         'logo heh huh phone'
         'logo heh menu menu'
-        'slideshow slideshow slideshow slideshow'
+        'slideshow slideshow slideshow right'
         'main main main right'
         'footer footer footer footer';
     gap: 10px;
