@@ -60,6 +60,11 @@
   margin-top: 80px;
 }
 
+.space3 {
+  margin-top: 50px;
+  text-align: left;
+}
+
 .spacec {
   margin-top: 50px;
   color: blue;
@@ -142,6 +147,20 @@
   position: absolute;
   text-align: center;
   right: 135px;
+  bottom: 4px;
+  color: white;
+}
+
+.button3 {
+  position: relative;
+  bottom: 50px;
+  right: 130px;
+}
+
+.text3 {
+  position: absolute;
+  text-align: center;
+  right: 75px;
   bottom: 4px;
   color: white;
 }
@@ -256,10 +275,10 @@ span {
 .grid-container5 {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
-  grid-template-rows: 100px 450px 450px;
+  grid-template-rows: 100px 300px 450px;
   grid-template-areas:
     'k header  header header header header'
-    'main main main main main main'
+    'o main main main main p'
     'g bleft bmain bmain2 bright e';
   gap: 10px;
   padding: 100px;
@@ -407,6 +426,20 @@ li a:hover {
   background-color: blue;
   border-radius: 50%;
   display: inline-block;
+  margin-bottom: 50px;
+}
+
+input[type=text] {
+  margin-left: 50px;
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
 }
 
 @media screen and (max-width: 600px) {
