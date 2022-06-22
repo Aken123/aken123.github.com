@@ -27,9 +27,7 @@ h1 {
 
 /* The navbar container */
 .topnav {
-    display: flex;
-    /* flex-wrap: wrap; make it drop down*/
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
     /* flex-end, space-around, space-between */
     align-items: center;
