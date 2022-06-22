@@ -1,20 +1,69 @@
-.header { grid-area: header; margin-right: 300px;}
-.navigation {grid-area: navi;}
-.menu { grid-area: menu; margin: auto; }
-.main { grid-area: main; text-align: left;}
-.left {grid-area: left;}
-.right { grid-area: right; }
-.bmain { grid-area: bmain;}
-.bleft {grid-area: bleft;}
-.bright { grid-area: bright; }
-.footer { grid-area: footer; }  
-.headerimg {width: 60px;position: absolute; top: 10px; left: 160px;}
-.space { margin-top: 50px;}
-.iconcircle {margin-top: 10px;}
-.gimage {width: 600px;}
-.textleft {
-    text-align: left;
+.header {
+  grid-area: header;
+  margin-right: 300px;
 }
+
+.navigation {
+  grid-area: navi;
+}
+
+.menu {
+  grid-area: menu;
+  margin: auto;
+}
+
+.main {
+  grid-area: main;
+  text-align: left;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.bmain {
+  grid-area: bmain;
+}
+
+.bleft {
+  grid-area: bleft;
+}
+
+.bright {
+  grid-area: bright;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.headerimg {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}
+
+.space {
+  margin-top: 50px;
+}
+
+.iconcircle {
+  margin-top: 10px;
+}
+
+.gimage {
+  width: 600px;
+}
+
+.textleft {
+  text-align: left;
+}
+
 .textright {
   text-align: right;
 }
@@ -46,23 +95,33 @@
 
 .button {
   position: relative;
+  top: 100px;
   right: 30px;
 }
 
 .text {
   position: absolute;
   text-align: center;
-  right : 60px;
+  right: 60px;
   bottom: 4px;
   color: white;
 }
 
-
-span {
-    font-size: 30px;
+.headerpad {
+  text-align: left;
+  margin-left: 30px;
 }
 
-.grid-container {   
+.boxtext {
+  text-align: left;
+  margin-left: 30px;
+}
+
+span {
+  font-size: 30px;
+}
+
+.grid-container {
   display: grid;
   grid-template-columns: 150px 550px;
   grid-template-rows: 100px 100px 400px;
@@ -79,92 +138,93 @@ span {
   padding: 10px;
 }
 
-.grid-container > div {
+.grid-container>div {
   text-align: center;
   padding: 20px 0;
 }
 
 .grid-container2 {
-    display: grid;
-    grid-template-areas:
-      'main main main right right right';
-    gap: 10px;
-    background-image: url();
-    background-position: right top;
-    background-size: 900px;
-    background-repeat: no-repeat;
-    padding: 10px;
+  display: grid;
+  grid-template-areas:
+    'main main main right right right';
+  gap: 10px;
+  background-image: url();
+  background-position: right top;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.grid-container2>div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 125px 125px 125px 125px 125px 125px 125px;
+  grid-template-rows: 100px 450px 450px;
+  grid-template-areas:
+    'header header header header header i'
+    'left left main main right right'
+    'bleft bleft bmain bmain bright bright';
+  gap: 100px;
+  padding: 100px;
+}
+
+.grid-container3>div {
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.dot {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 60%;
+  border: 4px solid rgb(236, 236, 236);
+  box-shadow: inset 0 0 0 1px rgb(236, 236, 236);
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    width: 100%;
   }
-  
-  .grid-container2 > div {
-    text-align: center;
-    padding: 20px 0;
+
+  .grid-container2 {
+    width: 100%;
   }
 
   .grid-container3 {
-    display: grid;
-  grid-template-rows: 100px 450px;
-    grid-template-areas:
-      'i header header header header header'
-      'left left main main right right'
-      'bleft bleft bmain bmain bright bright';
-    gap: 100px;
-    padding: 100px;
-  }
-  
-  .grid-container3 > div {
-    text-align: center;
-    border-radius: 25px;
-    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-    padding: 20px 0;
-  }
-
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-
-  .dot {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 60%;
-    border: 4px solid rgb(236, 236, 236);
-    box-shadow: inset 0 0 0 1px rgb(236, 236, 236);
-  }
-
-  @media screen and (max-width: 480px) {
-    .grid-container {
-        width: 100%;
-    }
-
-    .grid-container2 {
-        width: 100%;
-    }
-
-    .grid-container3 {
-      width: 100%;
+    width: 100%;
   }
 }
