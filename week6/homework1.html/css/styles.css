@@ -1,6 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   grid-area: header;
   margin-right: 290px;
+}
+
+.headerleft {
+  position: absolute;
+  top: 40px;
+  left: 180px;
+}
+
+.headerlefttext {
+  position: absolute;
+  bottom: 0;
+  left: 110px;
+  font-size: 30px;
 }
 
 .navigation {
@@ -165,6 +182,48 @@
   color: white;
 }
 
+.button4 {
+  position: relative;
+  top: 80px;
+  right: 30px;
+}
+
+.text4 {
+  position: absolute;
+  text-align: center;
+  right: 60px;
+  bottom: 4px;
+  color: white;
+}
+
+.button5 {
+  position: relative;
+  top: 85px;
+  right: 30px;
+}
+
+.text5 {
+  position: absolute;
+  text-align: center;
+  right: 60px;
+  bottom: 4px;
+  color: white;
+}
+
+.button6 {
+  position: relative;
+  top: 40px;
+  right: 30px;
+}
+
+.text6 {
+  position: absolute;
+  text-align: center;
+  right: 60px;
+  bottom: 4px;
+  color: white;
+}
+
 .headerpad {
   text-align: left;
   margin-left: 30px;
@@ -193,6 +252,24 @@
 .boxtext {
   text-align: left;
   margin-left: 30px;
+}
+
+.boxtext2 {
+  text-align: left;
+  margin-left: 40px;
+  color: white;
+}
+
+.boxhead {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.boxhead2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
 }
 
 span {
@@ -275,12 +352,16 @@ span {
 .grid-container5 {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
-  grid-template-rows: 100px 300px 450px;
+  grid-template-rows: 100px 400px 300px;
   grid-template-areas:
     'k header  header header header header'
     'o main main main main p'
     'g bleft bmain bmain2 bright e';
   gap: 10px;
+  background-image: url(../img/Bg\ Shape\ footer.png);
+  background-position: left bottom;
+  background-size: 1500px;
+  background-repeat: no-repeat;
   padding: 100px;
 }
 
@@ -452,6 +533,14 @@ input[type=text] {
   }
 
   .grid-container3 {
+    width: 100%;
+  }
+
+  .grid-container4 {
+    width: 100%;
+  }
+
+  .grid-container5 {
     width: 100%;
   }
 }
