@@ -1,0 +1,406 @@
+body {
+    font-family: sans-serif;
+    background-image: url(../images/Bg\ Shape@2x.png), url(../images/Bg\ Shape\ footer.png);
+    background-position: top right, bottom;
+    background-size: 50%, 100%;
+    background-repeat: no-repeat;
+    max-width: 1500px;
+}
+
+.bigimage {
+    width: 450px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    width: 100px;
+}
+
+.text {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subheader {
+    width: 40%;
+    font-size: 20px;
+}
+
+.mouse {
+    display: flex;
+    justify-content: center;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(../images/who\ we\ are\ background@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-image: linear-gradient(to right, #000081, blue);
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    color: rgb(255, 251, 3);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bright {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.button2 {
+    border-style: solid;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 a {
+    text-decoration: none;
+}
+
+.button2 a:hover {
+    color: rgb(255, 251, 3);
+}
+
+.button3 {
+    position: relative;
+    bottom: 50px;
+    left: 270px;
+}
+
+.text1 {
+    position: absolute;
+    text-align: center;
+    left: 715px;
+    bottom: 4px;
+    color: rgb(255, 255, 255);
+}
+
+#row3 {
+    background-image: url(../images/who\ we\ are\ background@2x.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.subheader2 {
+    margin-left: 100px;
+}
+
+.tbox {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.bbox {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.shadow {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    color: blue;
+}
+
+#row4 {
+    background-color: rgb(218, 201, 234);
+}
+
+.center2 {
+    text-align: center;
+    background-color: rgb(218, 201, 234);
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.top {
+    padding: 10px;
+    text-align: center;
+}
+
+.midbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box1 h1 {
+    color: blue;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.box2 {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box2 h1 {
+    color: blue;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.box3 {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box3 h1 {
+    color: blue;
+    margin: 50px;
+    font-size: 50px;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+.topfooter {
+    text-align: center;
+}
+
+.bottomfooter {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+
+.eleft {
+    float: left;
+    margin-left: 480px;
+    width: 20%;
+    padding: 0 20px;
+}
+
+.button4 {
+    background-image: linear-gradient(to right, #000081, blue);
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    margin-top: 18px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.button4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button4 a:hover {
+    color: rgb(255, 251, 3);
+}
+
+.eright {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: 58%, 200%;
+        background-repeat: no-repeat;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    li a {
+        font-size: 15px;
+    }
+
+    .mouse {
+        display: none;
+    }
+
+    .subheader {
+       text-align: center;
+       font-size: 15px;
+    }
+
+    #row2 {
+        text-align: center;
+    }
+
+    .button {
+        margin: auto;
+    }
+
+    #row3 {
+        text-align: center;
+    }
+
+    .subheader2 {
+        margin: auto;
+    }
+
+    .shadow {
+        margin: 10px;
+    }
+
+    .box1 {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .box2 {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .box3 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .bottomfooter {
+        font-size: 10px;
+    }
+
+    .eleft {
+        width: 100%;
+        margin: auto;
+    }
+
+    .eright {
+        width: 100%;
+        margin: auto;
+        margin-left: 160px;
+    }
+}
