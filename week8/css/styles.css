@@ -1,0 +1,41 @@
+body {
+    color: green;
+}
+
+.backgroundcolor {
+    background-color: rgb(222, 251, 254);
+    width: 378px;
+    margin: auto;
+}
+
+.full {
+    width: 337px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 170px;
+}
+
+.left {
+    float: left;
+    width: 170px;
+}
+
+.right {
+    float: right;
+    width: 170px;
+}
+
+.submit {
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(32, 97, 32);
+    width: 100px;
+}
