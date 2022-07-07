@@ -1,0 +1,20 @@
+.background {
+    background: url(../../img/418796.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    background-repeat: none;
+    transform: rotateY(180deg);
+}
+
+.gif {
+    width: 700px;
+    transform: rotateY(180deg);
+}
+
+.size {
+    font-size: 60px;
+    transform: rotateY(180deg);
+}
