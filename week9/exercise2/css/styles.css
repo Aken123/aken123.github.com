@@ -1,0 +1,57 @@
+table {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    width: 1100px;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.purple {
+    color: rgba(84,54,139,255);
+    border: 1px solid rgba(84,54,139,255);
+}
+
+.lblue {
+    background-color: rgba(188,222,239,255);
+    color: rgba(0,136,189,255);
+    border: 1px solid rgba(0,136,189,255);
+}
+
+.dblue {
+    background-color: rgba(177,209,225,255);
+    color: rgba(7,92,128,255);
+    border: 1px solid rgba(7,92,128,255);
+}
+
+.dbrown {
+    background-color: rgba(212,213,192,255);
+    color: rgba(93,101,34,255);
+    border: 1px solid rgba(93,101,34,255);
+}
+
+.lbrown {
+    background-color: rgba(227,228,205,255);
+    color: rgba(163,169,81,255);
+    border: 1px solid rgba(163,169,81,255);
+}
+.lgreen {
+    background-color: rgba(204,233,231,255);
+    color: rgba(74,191,185,255);
+    border: 1px solid rgba(74,191,185,255);
+}
+
+.red {
+    background-color: rgba(241,207,213,255);
+    color: rgba(185,10,42,255);
+    border: 1px solid rgba(185,10,42,255);
+}
