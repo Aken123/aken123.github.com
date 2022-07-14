@@ -31,20 +31,16 @@ body {
     position: absolute;
     width: 109px;
     height: 109px;
-    left: 165px;
+    left: 130px;
     top: 16px;
 }
 
 .navigation {
-    /* Home History Profiles About Me */
-
     position: absolute;
     width: 543px;
     height: 32px;
-    left: 449px;
+    left: 490px;
     top: 28px;
-
-    /* Text */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -180,7 +176,7 @@ body {
     position: absolute;
     width: 138px;
     height: 48px;
-    left: 700px;
+    left: 745px;
 }
 
 .round1 {
@@ -552,7 +548,7 @@ body {
 .darktext {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0;
-    width: 450px;
+    width: 350px;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
@@ -693,7 +689,7 @@ ul.no-bullets {
 .darktext4 {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0;
-    width: 450px;
+    width: 300px;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
@@ -703,7 +699,7 @@ ul.no-bullets {
 }
 
 .cards5 {
-    max-width: 1300px;
+    max-width: 1450px;
     height: 270px;
     margin: 0 auto;
     display: grid;
@@ -720,6 +716,12 @@ ul.no-bullets {
 .fcard {
     height: 210px;
     margin: auto;
+    margin-top: 50px;
+}
+
+.jcard {
+    height: 210px;
+    margin-left: 200px;
     margin-top: 50px;
 }
 
@@ -741,13 +743,13 @@ ul.no-bullets {
 
 .line {
     margin: auto;
-    width: 1050px;
+    width: 1240px;
     height: 1px;
     background-color: #CDC2AE;
 }
 
 .cards6 {
-    max-width: 1050px;
+    max-width: 1240px;
     margin: 0 auto;
     display: grid;
     padding: 10px;
@@ -767,7 +769,7 @@ ul.no-bullets {
 .gcard {
     height: 20px;
     padding: 11px;
-    margin-left: 130px;
+    margin-left: 178px;
     color: #FFFFFF;
 }
 
@@ -918,6 +920,43 @@ ul.no-bullets {
         height: 10px;
     }
 
+    .jcard {
+        margin: auto;
+        text-align: center;
+        height: 40px;
+    }
+
+    .cardimage {
+        width: 348px;
+        height: 476px;
+        opacity: 0.5;
+    }
+
+    #cardtext {
+        padding-left: 5px;
+        top: 310px;
+    }
+
+    #cardtext2 {
+        padding-left: 5px;
+        top: 310px;
+    }
+
+    #cardtext3 {
+        padding-left: 5px;
+        top: 310px;
+    }
+
+    .bcardtext {
+        left: 50px;
+        top: 333px;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #5C2000;
+    }
+
+    
 }
 
 @media (max-width: 900px) {
