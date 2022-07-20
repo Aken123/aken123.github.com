@@ -525,7 +525,7 @@ html {
 }
 
 .card3size {
-    width: 500px;
+    width: 400px;
 }
 
 .cards3 {
@@ -584,7 +584,6 @@ html {
 
 .textlight2 {
     color: rgba(57, 20, 0, 0.64);
-    ;
     text-transform: none;
     letter-spacing: 0px;
 }
@@ -1058,6 +1057,5 @@ ul.no-bullets {
     .card3size {
         width: 100%;
     }
-
 
 }
