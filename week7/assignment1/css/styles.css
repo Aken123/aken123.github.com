@@ -235,10 +235,10 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 1.8s linear infinite;
+  animation: textclip 1.7s linear infinite;
   display: inline-block;
       font-size: 60px;
-      padding: 30px;
+      padding: 50px;
 }
 
 @keyframes textclip {
@@ -248,7 +248,7 @@ html {
 }
 
 .nametext {
-    padding-top: 110px;
+    padding-top: 100px;
     margin: auto;
     width: 350px;
     height: 32px;
