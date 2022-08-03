@@ -67,6 +67,8 @@
 /*Ebola page 1*/
 body,
 html {
+    margin: auto;
+    max-width: 1920px;
     height: 100%;
 }
 
