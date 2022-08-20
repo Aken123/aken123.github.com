@@ -12,7 +12,7 @@ html {
     position: relative;
     margin: auto;
     width: 100%;
-    height: 150px;
+    height: 300px;
     background-color: #354259;
 }
 
@@ -35,22 +35,9 @@ html {
     height: 109px;
 }
 
-.navigation {
-    padding-top: 20px;
+#logo-center {
     margin: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
     text-align: center;
-    color: #FFFFFF;
-    justify-content: space-between;
 }
 
 .topnav {
@@ -77,7 +64,7 @@ html {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
     .topnav {
         flex-direction: column;
     }
@@ -100,7 +87,7 @@ html {
         display: block;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 780px) {
         .topnav.responsive {
             position: relative;
         }
@@ -184,6 +171,7 @@ html {
     text-align: center;
     text-decoration: none;
     color: #FFFFFF;
+    margin: auto;
 }
 
 .round1 :hover {
@@ -192,14 +180,12 @@ html {
 }
 
 .header {
+    margin-top: 80px;
     width: 100%;
-    height: 80px;
-    left: 574px;
-    top: 164px;
+    height: 10px;
     font-weight: 800;
-    font-size: 72px;
+    font-size: 60px;
     line-height: 80px;
-    margin: auto;
     text-align: center;
     letter-spacing: -2px;
     color: #FFFFFF;
@@ -237,7 +223,7 @@ html {
 .container {
     position: relative;
     margin: auto;
-    max-width: 1510px;
+    max-width: 100%;
     height: 300px;
     font-weight: 400;
     font-size: 16px;
@@ -249,7 +235,7 @@ html {
 .container3 {
     position: relative;
     margin: auto;
-    max-width: 1510px;
+    max-width: 100%;
     height: 300px;
     font-weight: 400;
     font-size: 16px;
@@ -266,8 +252,6 @@ html {
 }
 
 .cardc {
-    width: 500px;
-    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,8 +259,6 @@ html {
 }
 
 .cardd {
-    width: 500px;
-    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,48 +266,36 @@ html {
 }
 
 .carde {
-    width: 500px;
-    height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cardf {
-    width: 500px;
-    height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cardg {
-    width: 500px;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cardh {
-    width: 500px;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cardi {
-    width: 500px;
-    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cardj {
-    width: 500px;
-    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,12 +318,11 @@ html {
 }
 
 .gif {
-    width: 480px;
-    height: 240px;
+    width: 100%;
 }
 
 .gif2 {
-    width: max-content;
+    width: 90%;
     padding: 20px;
 }
 
@@ -392,7 +361,7 @@ html {
     color: #5C2000;
     cursor: pointer;
     padding: 18px;
-    width: 1200px;
+    width: 80%;
     border: none;
     text-align: left;
     outline: none;
@@ -478,7 +447,7 @@ html {
     color: #5C2000;
 }
 
-/*about me*/
+/*About*/
 
 .imagesize {
     width: 700px;
@@ -507,8 +476,7 @@ html {
 }
 
 .container4 {
-    width: 600px;
-    height: 450px;
+    max-width: 600px;
     padding: 10px;
     margin: auto;
     text-align: center;
@@ -547,7 +515,7 @@ html {
 }
 
 .cards7 {
-    max-width: 1000px;
+    max-width: 700px;
     height: fit-content;
     margin: 0 auto;
     display: grid;
@@ -595,14 +563,14 @@ html {
 }
 
 .size {
-    width: 296px;
+    width: 100%;
     border: 1px solid #F3D1BF;
     border-radius: 6px;
     color: rgba(57, 20, 0, 0.64);
 }
 
 .size2 {
-    width: 302px;
+    width: 102%;
     border: 1px solid #F3D1BF;
     border-radius: 6px;
     color: rgba(57, 20, 0, 0.64);
@@ -610,7 +578,7 @@ html {
 
 .border {
     border: 1px solid #F3D1BF;
-    width: 296px;
+    width: 100%;
     border-radius: 6px;
     color: rgba(57, 20, 0, 0.64);
 }
@@ -629,12 +597,11 @@ html {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    float: right;
 }
+
 
 .nametext2 {
     margin: auto;
-    width: 350px;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -808,7 +775,7 @@ ul.no-bullets {
 }
 
 .cards5 {
-    max-width: 1450px;
+    height: 150px;
     margin: 0 auto;
     display: grid;
     padding: 10px;
@@ -817,7 +784,7 @@ ul.no-bullets {
 .darkbackground2 {
     margin: auto;
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-color: #354259;
 }
 
@@ -828,6 +795,7 @@ ul.no-bullets {
 }
 
 .fcard2 {
+    width: 500px;
     height: 100px;
     margin: auto;
     margin-top: 50px;
@@ -835,8 +803,8 @@ ul.no-bullets {
 
 
 .jcard {
+    margin: auto;
     height: 100px;
-    margin-left: 200px;
     margin-top: 50px;
 }
 
@@ -847,6 +815,7 @@ ul.no-bullets {
 
 .footer {
     margin: auto;
+    width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -858,23 +827,21 @@ ul.no-bullets {
 
 .line {
     margin: auto;
-    width: 1240px;
+    width: 85%;
     height: 1px;
     background-color: #CDC2AE;
 }
 
 .line2 {
     margin: auto;
-    width: 1240px;
+    width: 85%;
     height: 1px;
     background-color: #354259;
 }
 
 .cards6 {
-    max-width: 1240px;
     margin: 0 auto;
     display: grid;
-    padding: 10px;
 }
 
 .dcard {
@@ -882,16 +849,23 @@ ul.no-bullets {
 }
 
 .ecard {
-    width: 200px;
+    width: 100%;
     height: 20px;
     padding: 11px;
     color: #FFFFFF;
 }
 
-.gcard {
-    width: 860px;
+.zcard {
+    width: 100%;
     height: 20px;
-    padding: 11px;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+.gcard {
+    width: 100%;
+    height: 20px;
+    padding-top: 25px;
     color: #FFFFFF;
 }
 
@@ -929,22 +903,22 @@ ul.no-bullets {
     display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 780px) {
 
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .cards5 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .cards6 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .cards2 {
@@ -959,7 +933,7 @@ ul.no-bullets {
 @media (min-width: 100px) {
 
     .cards6 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -969,7 +943,7 @@ ul.no-bullets {
     }
 
     .cards6 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .cards4 {
@@ -986,9 +960,9 @@ ul.no-bullets {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .darkbackground {
-        height: 100px;
+        height: 300px;
     }
 
     .darkbackground3 {
@@ -996,6 +970,7 @@ ul.no-bullets {
     }
 
     .logo {
+        padding-top: 15px;
         margin: auto;
         width: 64px;
         height: 64px;
@@ -1051,60 +1026,56 @@ ul.no-bullets {
     }
 
     .cardc {
-        width: 329px;
-        height: fit-content;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .cardd {
-        width: 329px;
-        height: fit-content;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .carde {
-        width: 329px;
-        height: fit-content;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .cardf {
-        width: 329px;
-        height: 170px;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .cardg {
-        width: 329px;
-        height: 170px;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .cardh {
-        width: 329px;
-        height: fit-content;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .cardi {
-        width: 329px;
-        height: fit-content;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .cardj {
-        width: 329px;
-        height: 170px;
+        width: 90%;
+        height: 100%;
         margin: auto;
     }
 
     .gif {
-        width: 329px;
-        height: 185px;
-    }
-
-    .gif2 {
-        display: none;
+        width: 100%;
+        height: 100%;
     }
 
     .tl {
@@ -1184,7 +1155,7 @@ ul.no-bullets {
     }
 
     .flex {
-        width: 75px;
+        width: 100%;
     }
 
     .collapsible {
@@ -1229,7 +1200,6 @@ ul.no-bullets {
 
     .container4 {
         width: 90%;
-        height: 450px;
     }
 
     .gray {

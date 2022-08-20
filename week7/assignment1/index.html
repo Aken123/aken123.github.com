@@ -3,8 +3,9 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <script src="https://kit.fontawesome.com/41733bfdaf.js" crossorigin="anonymous"></script>
-    <title>Assignment 1</title>
+    <title>Kamen Rider</title>
     <link rel="icon" type="image/x-icon" href="img/kamen_rider_revice_by_markolios_denschi-fullview.png">
 
     <link href="css/styles.css" rel="stylesheet" />
@@ -14,36 +15,38 @@
     <div id="home" class="darkbackground">
         <div class="container">
             <div class="cards6">
-                <div class="ecard">
+                <div id="logo-center" class="ecard">
                     <a href="index.html">
-                        <img class="logo" src="img/kamen_rider_revice_by_markolios_denschi-fullview.png" alt="">
+                        <img  class="logo" src="img/kamen_rider_revice_by_markolios_denschi-fullview.png" alt="">
                     </a>
                 </div>
+                
                 <div class="gcard">
-                    <div class="navigation">
-                        <div id="myTopnav" class="topnav">
+                    <div id="myTopnav" class="topnav">
+                        <a href="index.html">Home</a>
+                        <a href="history.html">History</a>
+                        <a href="profiles.html">Profiles</a>
+                        <a href="aboutme.html">About</a>
+                        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                            <i id="icon" class="fa-solid fa-bars"></i>
+                        </a>
+                        
+                    </div>
+
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
                             <a href="index.html">Home</a>
                             <a href="history.html">History</a>
                             <a href="profiles.html">Profiles</a>
-                            <a href="aboutme.html">About Me</a>
-                            <a href="javascript:void(0);" class="icon" onclick="openNav()">
-                                <i id="icon" class="fa-solid fa-bars"></i>
-                            </a>
+                            <a href="aboutme.html">About</a>
+                            <a href="contact.html">Contact</a>
                         </div>
-                        <div id="navigation2" class="topnav">
-                            <a class="round1" href="contact.html">CONTACT</a>
-                        </div>
-
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <div class="overlay-content">
-                                <a href="index.html">Home</a>
-                                <a href="history.html">History</a>
-                                <a href="profiles.html">Profiles</a>
-                                <a href="aboutme.html">About Me</a>
-                                <a href="contact.html">Contact</a>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+                <div class="zcard">
+                    <div id="navigation2" class="topnav">
+                        <a class="round1" href="contact.html">CONTACT</a>
                     </div>
                 </div>
             </div>
@@ -118,11 +121,11 @@
         </div>
         <div class="center">
             <a class="link" href="profiles.html"><button class="button" style="vertical-align:middle"><span>Learn More
-            </span></button></a>
+                    </span></button></a>
         </div>
     </div>
     <div id="about_me">
-        <h5 class="subtitle">About Me</h5>
+        <h5 class="subtitle">About</h5>
         <h2 class="subheading">Little bit<br>of myself</h2>
     </div>
     <div class="cards3">
@@ -137,8 +140,8 @@
                 <p class="textlight2">I am a modest, passionate, devoted, hardworking and honest person with an
                     ultimate aim of gaining more knowledge and acquiring new skills in Information Technology and
                     its related fields.</p>
-                    <a class="link" href="aboutme.html"><button class="button" style="vertical-align:middle"><span>See More
-                    </span></button></a>
+                <a class="link" href="aboutme.html"><button class="button" style="vertical-align:middle"><span>See More
+                        </span></button></a>
             </div>
         </div>
     </div>
@@ -153,7 +156,7 @@
                         <option value="home">Home</option>
                         <option value="history">History</option>
                         <option value="profiles">Profiles</option>
-                        <option value="aboutme">About Me</option>
+                        <option value="aboutme">About</option>
                         <option value="contact">Contact</option>
                     </select><br><br>
                     <textarea class="border" id="message" name="message" rows="5" cols="38"
@@ -208,7 +211,7 @@
                     <li class="item flex-item"><a class="link2" href="index.html">Home</a></li>
                     <li class="item flex-item"><a class="link2" href="history.html">History</a></li>
                     <li class="item flex-item"><a class="link2" href="profiles.html">Profiles</a></li>
-                    <li class="item flex-item"><a class="link2" href="aboutme.html">About Me</a></li>
+                    <li class="item flex-item"><a class="link2" href="aboutme.html">About</a></li>
                     <li class="item flex-item"><a class="link2" href="contact.html">Contact</a></li>
                 </ul>
             </div>

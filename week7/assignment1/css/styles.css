@@ -23,7 +23,7 @@ html {
 .container {
     position: relative;
     margin: auto;
-    max-width: 1510px;
+    max-width: 100%;
     height: 600px;
     font-weight: 400;
     font-size: 16px;
@@ -41,26 +41,14 @@ html {
 .logo {
     width: 109px;
     height: 109px;
-    margin-left: auto;
 }
 
-.navigation {
-    padding-top: 20px;
+#logo-center {
     margin: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
     text-align: center;
-    color: #FFFFFF;
-    justify-content: space-between;
 }
+
+
 
 .topnav {
     overflow: hidden;
@@ -86,7 +74,7 @@ html {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
     .topnav {
         flex-direction: column;
     }
@@ -109,7 +97,7 @@ html {
         display: block;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 780px) {
         .topnav.responsive {
             position: relative;
         }
@@ -129,19 +117,7 @@ html {
 
 }
 
-.header {
-    width: 100%;
-    height: 80px;
-    left: 574px;
-    top: 164px;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 80px;
-    margin: auto;
-    text-align: center;
-    letter-spacing: -2px;
-    color: #FFFFFF;
-}
+
 
 .overlay {
     height: 100%;
@@ -209,6 +185,7 @@ html {
     text-align: center;
     text-decoration: none;
     color: #FFFFFF;
+    margin: auto;
 }
 
 .round1 :hover {
@@ -249,7 +226,8 @@ html {
 .nametext {
     padding-top: 100px;
     margin: auto;
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: 32px;
     font-style: normal;
     font-weight: 400;
@@ -259,14 +237,6 @@ html {
     text-transform: uppercase;
     color: #EF6D58;
     text-align: center;
-}
-
-.whitetext {
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 80px;
-    text-transform: none;
 }
 
 .textlight {
@@ -352,8 +322,8 @@ html {
 }
 
 .cardimage {
-    width: 448px;
-    height: 576px;
+    width: 100%;
+    height: 100%;
     opacity: 0.5;
 }
 
@@ -362,8 +332,8 @@ html {
     padding-left: 10px;
     width: 70px;
     height: 38px;
-    left: 50px;
-    top: 375px;
+    left: 10%;
+    top: 60%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -374,8 +344,8 @@ html {
     padding-left: 10px;
     width: 70px;
     height: 38px;
-    left: 50px;
-    top: 375px;
+    left: 10%;
+    top: 60%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -386,8 +356,8 @@ html {
     padding-left: 10px;
     width: 70px;
     height: 38px;
-    left: 50px;
-    top: 375px;
+    left: 10%;
+    top: 60%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -418,10 +388,9 @@ html {
 
 .bcardtext {
     position: absolute;
-    width: 300px;
     height: 38px;
-    left: 50px;
-    top: 420px;
+    left: 10%;
+    top: 65%;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
@@ -485,10 +454,9 @@ html {
 }
 
 .boxtext {
-    position: absolute;
-    top: 50px;
-    left: 45px;
-    width: 260px;
+    margin: auto;
+    padding: 10%;
+    width: 80%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -497,8 +465,8 @@ html {
 
 .profileicon {
     position: absolute;
-    top: 350px;
-    left: 45px;
+    top: 70%;
+    left: 13%;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -506,8 +474,8 @@ html {
 
 .boxtext2 {
     position: absolute;
-    top: 330px;
-    left: 150px;
+    top: 65%;
+    left: 45%;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
@@ -516,8 +484,8 @@ html {
 
 .boxtext3 {
     position: absolute;
-    top: 330px;
-    left: 150px;
+    top: 65%;
+    left: 45%;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
@@ -527,7 +495,7 @@ html {
 .smallboxtext {
     position: absolute;
     top: 50px;
-    width: 200px;
+    width: 150px;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -575,7 +543,7 @@ html {
 }
 
 .nametext2 {
-    width: 350px;
+    width: 320px;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -589,7 +557,7 @@ html {
 .darktext {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0;
-    width: 350px;
+    width: 100%;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
@@ -643,14 +611,14 @@ textarea {
 #whitebackground {
     background-color: #FFFFFF;
     border-radius: 6px;
-    width: 300px;
+    width: 55%;
     height: 270px;
     padding: 40px;
     padding-left: 20px;
 }
 
 .size {
-    width: 296px;
+    width: 100%;
     border: 1px solid #F3D1BF;
     border-radius: 6px;
     color: rgba(57, 20, 0, 0.64);
@@ -658,13 +626,13 @@ textarea {
 
 .border {
     border: 1px solid #F3D1BF;
-    width: 296px;
+    width: 100%;
     border-radius: 6px;
     color: rgba(57, 20, 0, 0.64);
 }
 
 .size2 {
-    width: 302px;
+    width: 102%;
     border: 1px solid #F3D1BF;
     border-radius: 6px;
     color: rgba(57, 20, 0, 0.64);
@@ -684,7 +652,6 @@ textarea {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    float: right;
 }
 
 .darktext3 {
@@ -697,7 +664,7 @@ textarea {
     color: #FFFFFF;
     text-transform: none;
     text-decoration: none;
-    width: 350px;
+    width: 100%;
     font-size: 14px;
 }
 
@@ -757,7 +724,7 @@ ul.no-bullets {
     display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .darktext4 {
@@ -773,7 +740,6 @@ ul.no-bullets {
 }
 
 .cards5 {
-    max-width: 1450px;
     height: 150px;
     margin: 0 auto;
     display: grid;
@@ -783,7 +749,7 @@ ul.no-bullets {
 .darkbackground2 {
     margin: auto;
     width: 100%;
-    height: 250px;
+    height: 280px;
     background-color: #354259;
 }
 
@@ -794,14 +760,15 @@ ul.no-bullets {
 }
 
 .fcard2 {
+    width: 500px;
     height: 100px;
     margin: auto;
     margin-top: 50px;
 }
 
 .jcard {
+    margin: auto;
     height: 100px;
-    margin-left: 200px;
     margin-top: 50px;
 }
 
@@ -812,6 +779,7 @@ ul.no-bullets {
 
 .footer {
     margin: auto;
+    width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -823,16 +791,14 @@ ul.no-bullets {
 
 .line {
     margin: auto;
-    width: 1240px;
+    width: 85%;
     height: 1px;
     background-color: #CDC2AE;
 }
 
 .cards6 {
-    max-width: 1240px;
     margin: 0 auto;
     display: grid;
-    padding: 10px;
 }
 
 .dcard {
@@ -840,16 +806,23 @@ ul.no-bullets {
 }
 
 .ecard {
-    width: 200px;
+    width: 100%;
     height: 20px;
     padding: 11px;
     color: #FFFFFF;
 }
 
-.gcard {
-    width: 860px;
+.zcard {
+    width: 100%;
     height: 20px;
-    padding: 11px;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+.gcard {
+    width: 100%;
+    height: 20px;
+    padding-top: 25px;
     color: #FFFFFF;
 }
 
@@ -863,7 +836,7 @@ ul.no-bullets {
     color: rgba(255, 255, 255, 0.64);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 780px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -873,18 +846,18 @@ ul.no-bullets {
     }
 
     .cards5 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .cards6 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (min-width: 100px) {
 
     .cards6 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -910,21 +883,18 @@ ul.no-bullets {
     }
 
     .cards6 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
 
     .logo {
+        padding-top: 15px;
         margin: auto;
         width: 64px;
         height: 64px;
-    }
-
-    .navigation {
-        padding-top: 0;
     }
 
     #navigation2 {
@@ -939,7 +909,7 @@ ul.no-bullets {
     }
 
     .cards2 {
-        height: 1500px;
+        height: 1200px;
     }
 
     .acard {
@@ -995,7 +965,7 @@ ul.no-bullets {
     }
 
     .cardimage {
-        width: 348px;
+        width: 100%;
         height: 476px;
         opacity: 0.5;
     }
@@ -1016,8 +986,8 @@ ul.no-bullets {
     }
 
     .bcardtext {
-        left: 50px;
-        top: 333px;
+        left: 10%;
+        top: 70%;
         font-weight: 800;
         font-size: 40px;
         line-height: 48px;
@@ -1048,7 +1018,7 @@ ul.no-bullets {
     }
 
     .flex {
-        width: 75px;
+        width: 100%;
     }
 
 

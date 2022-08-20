@@ -3,6 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <script src="https://kit.fontawesome.com/41733bfdaf.js" crossorigin="anonymous"></script>
     <title>Profiles</title>
     <link rel="icon" type="image/x-icon" href="img/kamen_rider_revice_by_markolios_denschi-fullview.png">
@@ -12,48 +13,48 @@
 
 <body>
     <div id="home" class="darkbackground">
-        <div class="container3">
+        <div class="container">
             <div class="cards6">
-                <div class="ecard">
+                <div id="logo-center" class="ecard">
                     <a href="index.html">
                         <img class="logo" src="img/kamen_rider_revice_by_markolios_denschi-fullview.png" alt="">
                     </a>
                 </div>
+
                 <div class="gcard">
-                    <div class="navigation">
-                        <div id="myTopnav" class="topnav">
+                    <div id="myTopnav" class="topnav">
+                        <a href="index.html">Home</a>
+                        <a href="history.html">History</a>
+                        <a href="profiles.html">Profiles</a>
+                        <a href="aboutme.html">About</a>
+                        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                            <i id="icon" class="fa-solid fa-bars"></i>
+                        </a>
+
+                    </div>
+
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
                             <a href="index.html">Home</a>
                             <a href="history.html">History</a>
                             <a href="profiles.html">Profiles</a>
-                            <a href="aboutme.html">About Me</a>
-                            <a href="javascript:void(0);" class="icon" onclick="openNav()">
-                                <i id="icon" class="fa-solid fa-bars"></i>
-                            </a>
-                        </div>
-                        <div id="navigation2" class="topnav">
-                            <a class="round1" href="contact.html">CONTACT</a>
-                        </div>
-
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <div class="overlay-content">
-                                <a href="index.html">Home</a>
-                                <a href="history.html">History</a>
-                                <a href="profiles.html">Profiles</a>
-                                <a href="aboutme.html">About Me</a>
-                                <a href="contact.html">Contact</a>
-                            </div>
+                            <a href="aboutme.html">About</a>
+                            <a href="contact.html">Contact</a>
                         </div>
                     </div>
                 </div>
+                <div class="zcard">
+                    <div id="navigation2" class="topnav">
+                        <a class="round1" href="contact.html">CONTACT</a>
+                    </div>
+                </div>
             </div>
+            <h1 class="header">PROFILES</h1><br>
+            <p class="lightgrey">Reiwa Rider's Story Plot</p>
         </div>
     </div>
-    <div class="darkbackground3">
-        <h1 class="header">PROFILES</h1><br>
-        <p class="lightgrey">Reiwa Rider's Story Plot</p>
-    </div>
-    <div id="history">
+    <div id="profile">
         <h2 class="subheading">Reiwa Riders<br>Plot</h2>
     </div>
     <div class="cards">
@@ -125,7 +126,7 @@
                     <li class="item flex-item"><a class="link2" href="index.html">Home</a></li>
                     <li class="item flex-item"><a class="link2" href="history.html">History</a></li>
                     <li class="item flex-item"><a class="link2" href="profiles.html">Profiles</a></li>
-                    <li class="item flex-item"><a class="link2" href="aboutme.html">About Me</a></li>
+                    <li class="item flex-item"><a class="link2" href="aboutme.html">About</a></li>
                     <li class="item flex-item"><a class="link2" href="contact.html">Contact</a></li>
                 </ul>
             </div>
